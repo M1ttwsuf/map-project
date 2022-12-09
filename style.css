@@ -1,0 +1,19 @@
+ body{
+    background-color: skyblue ;
+ }
+
+ .mapdiv{
+    width: 38%;
+    margin: auto;
+ }
+
+ .mapdiv path{
+    fill: beige;
+    stroke: white;
+    stroke-width: 4px;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover{
+    fill: yellowgreen;
+}
